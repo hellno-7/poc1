@@ -15,8 +15,13 @@ public class NewTest {
 	
   @Test
   public void f() {
-	  driver.get("http://google.com");
+  	try{
+	  driver.get("http://www.google.com");
 	  driver.manage().window().maximize();
+  	}
+  	catch(Exception e) {
+			 e.printStackTrace();
+		}
   }
   
   
