@@ -28,7 +28,7 @@ public class NewTest {
   @BeforeTest
   public void beforeTest() {
   	try{
-  	Runtime.getRuntime.exec("C:\\Users\\c5245770\\Documents\\node.bat");
+  	Runtime.getRuntime().exec("C:\\Users\\c5245770\\Documents\\node.bat");
   	Thread.sleep(10000);
   	DesiredCapabilities capability;
 	capability = DesiredCapabilities.chrome();
